@@ -204,6 +204,8 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 
 Claude 对付款和账号的审核比其他几家严，付款前多做几步确认：
 
+> 2026 年 10 月初有报道称，部分香港地区的 Claude 账号（免费和 Pro 都有）被停用，Anthropic 未公布具体原因；用户和当地媒体归纳的可能因素包括数据中心 IP、虚拟卡或本地卡配海外账单地址、登录国家频繁变化（[VGTimes，2026-10-02](https://vgtimes.com/news/169668-claude-users-in-hong-kong-report-account-suspensions.html)）。另外，Anthropic 已更新隐私政策，可能要求部分用户上传政府签发的证件和自拍做身份核验（[TechCrunch，2026-06-22](https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/)）。付款前先确认自己的账号情况能满足这些要求。
+
 - 先看 Claude 官方的「支持地区」列表，账号使用地区不在列表里的，先别付款；
 - 账单地址、常用登录地区、账号资料尽量一致，不要频繁在多个地区之间切换；
 - 付款被拒后不要连续换卡重试，先按第 5 节排查，等一段时间再试；
