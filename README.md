@@ -1,6 +1,6 @@
-# AI 订阅付款指南：ChatGPT Plus / Claude Pro / Gemini / Cursor / Midjourney
+# ChatGPT Plus / Claude Pro / Cursor / Gemini 付款失败怎么办：AI 订阅付款方法对比
 
-> 国内用户、以及本地卡经常被拒的海外用户，怎么给 AI 服务付款？各种方法的优缺点、费用对比，加一份「付款被拒」排障清单。
+> 用国内银行卡（包括双币卡、全币种卡）订阅 ChatGPT Plus、Claude Pro、Cursor Pro、Gemini、Midjourney，经常看到「Your card was declined」或「付款失败」。本地卡经常被拒的海外用户也一样。这份指南讲清楚被拒的原因，对比 App 内购、虚拟卡等几种付款方式的优缺点和费用，最后附一份「付款被拒」排障清单。
 >
 > 整理时间：2026 年 10 月。商户规则和各家费率变化很快，表里的数字请以各自官网为准。发现过时的内容欢迎提 Issue / PR。
 
