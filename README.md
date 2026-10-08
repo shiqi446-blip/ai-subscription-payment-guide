@@ -10,6 +10,9 @@
 
 **分篇 FAQ（docs/）**：
 
+- [Claude Code 订阅付款：Pro / Max / API 三种买法和付款方式对比](docs/claude-code-subscription-payment.md)
+- [ChatGPT 订阅：Plus / Pro 在国内怎么付款，几种办法对比](docs/chatgpt-subscription.md)
+- [怎么有一张海外信用卡：几条路的门槛、费用和适用场景](docs/overseas-credit-card.md)
 - [各 AI 服务付款步骤：ChatGPT Plus / Claude Pro / Cursor / Gemini / Midjourney](docs/payment-steps.md)
 - [Claude Pro / ChatGPT Plus / Cursor 付款失败原因与排查](docs/claude-chatgpt-cursor-payment-failed.md)
 - [Your card was declined：常见拒付原因与解决](docs/card-declined.md)
@@ -310,6 +313,7 @@ Claude 对付款和账号的审核比其他几家严，付款前多做几步确�
 - **Decline checklist**: subscribe on the web, not in-app; keep at least $25 for a $20 plan; copy the billing address field by field; keep the network exit region in the same country as the billing address; turn off browser autofill; don't bind one card to several accounts; **don't retry repeatedly** — remove the card, fix the details, wait, then try again.
 - **Claude Pro**: Claude reviews payments and accounts more strictly than others. Check the official supported-regions list first, keep billing address and login region consistent, and avoid retrying with many different cards.
 
+- **Guides (Chinese)**: [Claude Code subscription payment](docs/claude-code-subscription-payment.md) · [ChatGPT subscription](docs/chatgpt-subscription.md) · [how to get an overseas credit card](docs/overseas-credit-card.md)
 - **More**: [English FAQ](docs/faq-en.md) · [fee comparison](docs/fees.md) · [changelog](CHANGELOG.md)
 
 ---
@@ -318,6 +322,9 @@ Claude 对付款和账号的审核比其他几家严，付款前多做几步确�
 
 | 文章 | 适合谁 |
 |---|---|
+| [Claude Code 订阅付款](docs/claude-code-subscription-payment.md) | 用 Claude Code，要选 Pro / Max / API 并解决付款 |
+| [ChatGPT 订阅怎么付款](docs/chatgpt-subscription.md) | 想订 ChatGPT Plus / Pro，但手里只有国内卡 |
+| [怎么有一张海外信用卡](docs/overseas-credit-card.md) | 想弄清双币卡、港卡、海外卡、预付卡的区别 |
 | [各 AI 服务付款步骤](docs/payment-steps.md) | 第一次订阅 ChatGPT Plus / Claude Pro / Cursor / Gemini / Midjourney |
 | [Claude Pro / ChatGPT Plus / Cursor 付款失败排查](docs/claude-chatgpt-cursor-payment-failed.md) | 三家各自特有的付款失败原因 |
 | [常见拒付原因与解决](docs/card-declined.md) | 已经看到「Your card was declined」或续费失败 |

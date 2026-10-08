@@ -5,6 +5,7 @@
 ## 2026-10-08
 
 ### 指南
+- 新增 3 篇分篇文档：[Claude Code 订阅付款](docs/claude-code-subscription-payment.md)、[ChatGPT 订阅怎么付款](docs/chatgpt-subscription.md)、[怎么有一张海外信用卡](docs/overseas-credit-card.md)，对比境内双币卡、香港卡、海外银行卡、亲友代付、预付虚拟卡、App Store 礼品卡的门槛、费用和风险。
 - README 新增第 5.5 节「Claude Pro / ChatGPT Plus / Cursor 付款常见失败原因与排查」：按服务列出特有报错、原因和处理顺序；Claude 部分附客观风险提示。
 
 ### Pink Card（利益相关：作者团队的产品）
