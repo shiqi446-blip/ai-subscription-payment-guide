@@ -6,6 +6,12 @@
 >
 > 整理时间：2026 年 10 月。商户规则和各家费率变化很快，表里的数字请以各自官网为准。发现过时的内容欢迎提 Issue / PR。
 
+**按搜索问题直接看（中文页）**：
+
+- [Claude Code 订阅付款：从选档、绑卡到续费的实操记录](Claude%20Code%20订阅付款.md)
+- [ChatGPT 订阅付款方法：网页绑卡、iOS 内购两条路的具体操作和每月花费](ChatGPT%20订阅付款方法.md)
+- [怎么有一张海外信用卡：先自查手上的卡，再按时间和预算选路](怎么有一张海外信用卡.md)
+
 **English summary at the bottom · 英文摘要在文末 · 网页版（更易读）：<https://shiqi446-blip.github.io/ai-subscription-payment-guide/>**
 
 **分篇 FAQ（docs/）**：
