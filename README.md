@@ -1,10 +1,20 @@
 # ChatGPT Plus / Claude Pro / Cursor / Gemini 付款失败怎么办：AI 订阅付款方法对比
 
+**How to pay for ChatGPT Plus, Claude Pro, Cursor, Gemini and Midjourney when your card is declined — methods, fees and a troubleshooting checklist.**
+
 > 用国内银行卡（包括双币卡、全币种卡）订阅 ChatGPT Plus、Claude Pro、Cursor Pro、Gemini、Midjourney，经常看到「Your card was declined」或「付款失败」。本地卡经常被拒的海外用户也一样。这份指南讲清楚被拒的原因，对比 App 内购、虚拟卡等几种付款方式的优缺点和费用，最后附一份「付款被拒」排障清单。
 >
 > 整理时间：2026 年 10 月。商户规则和各家费率变化很快，表里的数字请以各自官网为准。发现过时的内容欢迎提 Issue / PR。
 
-**English summary at the bottom.**
+**English summary at the bottom · 英文摘要在文末 · 网页版（更易读）：<https://shiqi446-blip.github.io/ai-subscription-payment-guide/>**
+
+**分篇 FAQ（docs/）**：
+
+- [各 AI 服务付款步骤：ChatGPT Plus / Claude Pro / Cursor / Gemini / Midjourney](docs/payment-steps.md)
+- [Your card was declined：常见拒付原因与解决](docs/card-declined.md)
+- [AI 订阅付款方式费用对比表（含一年总成本算例）](docs/fees.md)
+- [English FAQ: paying for AI subscriptions with a virtual card](docs/faq-en.md)
+- [更新记录 CHANGELOG](CHANGELOG.md)
 
 > **利益相关**：本仓库作者团队在做 Pink Card（一种预付虚拟卡），它是下面对比的方法之一，单独放在第 4 节，费用照实写。其余部分尽量保持中立，不点名推荐也不点名贬低任何一家。
 
@@ -20,10 +30,13 @@
 6. [Claude Pro 单独说明](#6-claude-pro-单独说明)
 7. [怎么选：一张决策表](#7-怎么选一张决策表)
 8. [English Summary](#english-summary)
+9. [延伸阅读：分篇 FAQ](#延伸阅读分篇-faq)
 
 ---
 
 ## 1. 先搞懂：为什么你的卡付不了
+
+> 关键词：ChatGPT Plus 付款被拒、Claude Pro 订阅付款失败、Cursor 国内卡被拒、Your card was declined
 
 ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款，Gemini 走 Google 自己的付款系统。不管哪家，每笔扣款大致会核对这几项：
 
@@ -42,6 +55,8 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 
 ## 2. 各服务的收款方式一览
 
+> 关键词：ChatGPT Plus 怎么付款、Claude Pro 订阅付款方式、Gemini 订阅付款、Cursor Pro 付款、Midjourney 付款
+
 | 服务 | 常见套餐（月付，美元） | 网页端收款 | App 内购 | 备注 |
 |---|---|---|---|---|
 | ChatGPT Plus | $20 | Stripe，信用卡 / 借记卡 | iOS / Android 可内购 | 网页订阅和 App 内购是两套账单，别重复订 |
@@ -56,6 +71,8 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 
 ## 3. 付款方法对比
 
+> 关键词：AI 订阅虚拟卡、AI subscription virtual card、App 内购、代充
+
 ### 3.1 总表
 
 | 方法 | 适用服务 | 一次性成本 | 持续成本 | 门槛 | 稳定性 | 主要风险 |
@@ -64,7 +81,7 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 | 外区 Apple ID + App Store 礼品卡 | 有 iOS App 的：ChatGPT、Claude、Gemini 部分套餐 | 礼品卡溢价 | 每月买卡，溢价持续 | 中：要会注册外区账号 | 中 | 礼品卡来源、账号地区限制、无法用于网页端 |
 | 朋友代付 | 全部 | 无 | 人情 | 低 | 取决于朋友 | 账单在别人卡上，退款、换套餐都被动 |
 | 交易平台发行的联名卡 | 走 Stripe 的服务大多可以 | 开卡费低或免费 | 费率低，多为 1% 左右，通常零月费 | 中到高：要先在该平台开户、做身份认证、换好美元资产 | 中 | 要多开一个平台账户；部分地区不发卡 |
-| 支持支付宝 / 微信入金的预付卡 | 走 Stripe 的服务大多可以 | 开卡费几美元到 $20 不等 | 充值费 3% 上下，部分有年费 | 低到中：多数要身份认证 | 中 | 这类平台近两年关停不少，选之前看运营时间和退款口碑 |
+| 支持支付宝等国内方式入金的预付卡 | 走 Stripe 的服务大多可以 | 开卡费几美元到 $20 不等 | 充值费 3% 上下，部分有年费 | 低到中：多数要身份认证 | 中 | 这类平台近两年关停不少，选之前看运营时间和退款口碑 |
 | 一次性虚拟卡 | 单次付款 | 每张一笔费用 | 每月重新买、重新绑卡 | 低 | 低到中 | 续费时卡已作废，订阅会中断 |
 | 第三方代充 / 合租账号 | ChatGPT 为主 | 无 | 按月付给代充方，常见 ¥130–170/月 | 最低 | 低 | 账号密码交给别人；合租违反多数服务条款；对方随时可能改密码 |
 
@@ -99,7 +116,7 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 - **缺点**：要先在发卡平台开户、做身份认证，并且先把钱换成平台支持的美元资产才能充值，链路长；不少平台对部分国家和地区不发卡，大陆可用性要自己确认。
 - **适合**：本来就在用这类平台、熟悉操作的人。
 
-#### 支持支付宝 / 微信入金的预付卡
+#### 支持支付宝等国内方式入金的预付卡
 
 - **优点**：入金方式最贴近国内用户习惯，不用另外开海外账户。
 - **缺点**：这一类平台 2024–2025 年陆续有关停的，选之前看清楚运营时间、有没有退款渠道；最低充值额、能不能提现、身份认证要求各家差别很大。
@@ -125,7 +142,7 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 
 **常用来付**：ChatGPT Plus、Cursor、Gemini、Google Cloud、Midjourney、OpenAI API 充值、部分海外网站订阅。Claude 付款前请先看第 6 节。
 
-**怎么买**：官网 [pinkcard.cc](https://pinkcard.cc) 选面值下单，卡号、有效期、CVV 和可用的账单地址发到邮箱，然后去对应服务的网页端绑卡。网页面值 $110 起。付款方式以下单页为准；网站下单可以直接扫支付宝付款（页面会给出收款码和精确的人民币金额），付完点「我已付款」，客服核款后发卡；需要人工核款、不是秒到，急用请先问客服当天处理时间。
+**怎么买**：官网 [pinkcard.cc](https://pinkcard.cc) 选面值下单，卡号、有效期、CVV 和可用的账单地址发到邮箱，然后去对应服务的网页端绑卡。网页面值 $110 起。付款方式以下单页为准，目前网站可用**支付宝**扫码（页面直接给出收款码和精确的人民币金额，另收 3% 通道费）或**网站账户余额**付款。支付宝付完点「我已付款」，客服核款后发卡；需要人工核款、不是秒到，急用请先问客服当天处理时间。
 
 **费用（全部列出）**：
 
@@ -133,13 +150,14 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 |---|---|
 | 开卡费 | $10 |
 | 服务费 | 3%，按「面值 + 开卡费」计算 |
-| 续充 | 充值金额的 5%，卡号不变，不用重新绑卡 |
+| 续充 | 每次 $5 + 充值金额的 5%，卡号不变，不用重新绑卡 |
+| 支付宝付款 | 另加 3% 通道费 |
 | 月费 | $2.50 / 月 |
 | 交易费 | 每笔 $1，**扣款失败也收**；失败的每月最多收 3 笔 |
 
-**算例**：买 $110 面值，需付 $110 + $10 + ($120 × 3%) = **$123.60**。
+**算例**：买 $110 面值，需付 $110 + $10 + ($120 × 3%) = **$123.60**（用支付宝付再加 3%）。
 
-**坦白说不便宜**：按月订一年 ChatGPT Plus（$240），在 Pink Card 上的附加成本大约 $60（开卡费、服务费、中途续充的 5%、12 个月月费、12 笔交易费合计），约占订阅费的四分之一。第 3 节里零月费、费率 1% 左右的方案，同样场景下附加成本低得多。
+**坦白说不便宜**：按月订一年 ChatGPT Plus（$240），在 Pink Card 上的附加成本大约 $61–74（开卡费、服务费、中途续充的 $5 + 5%、12 个月月费、12 笔交易费合计，不含支付宝 3%），约占订阅费的四分之一到三成。逐项算法见 [docs/fees.md](docs/fees.md)。第 3 节里零月费、费率 1% 左右的方案，同样场景下附加成本低得多。
 
 **那为什么有人还选它**：
 
@@ -159,6 +177,8 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 ---
 
 ## 5. 付款被拒排障清单
+
+> 关键词：Your card was declined 怎么办、card not supported、AVS 邮编不正确、续费失败。更细的报错对照见 [docs/card-declined.md](docs/card-declined.md)。
 
 按顺序逐条排查，**每改一项再试一次，不要一口气连续重试**。
 
@@ -202,11 +222,13 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 
 ## 6. Claude Pro 单独说明
 
+> 关键词：Claude Pro 订阅付款、Claude 付款失败、Claude 支持地区
+
 Claude 对付款和账号的审核比其他几家严，付款前多做几步确认：
 
-> 2026 年 10 月初有报道称，部分香港地区的 Claude 账号（免费和 Pro 都有）被停用，Anthropic 未公布具体原因；用户和当地媒体归纳的可能因素包括数据中心 IP、虚拟卡或本地卡配海外账单地址、登录国家频繁变化（[VGTimes，2026-10-02](https://vgtimes.com/news/169668-claude-users-in-hong-kong-report-account-suspensions.html)）。另外，Anthropic 已更新隐私政策，可能要求部分用户上传政府签发的证件和自拍做身份核验（[TechCrunch，2026-06-22](https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/)）。付款前先确认自己的账号情况能满足这些要求。
+> 2026 年 10 月初有报道称，部分香港地区的 Claude 账号（免费和 Pro 都有）被停用，Anthropic 未公布具体原因；用户和当地媒体归纳的可能因素包括数据中心 IP、虚拟卡或本地卡配海外账单地址、登录国家频繁变化（来源：VGTimes，2026-10-02）。另外，Anthropic 已更新隐私政策，可能要求部分用户上传政府签发的证件和自拍做身份核验（来源：TechCrunch，2026-06-22）。付款前先确认自己的账号情况能满足这些要求。
 
-- 先看 Claude 官方的「支持地区」列表，账号使用地区不在列表里的，先别付款；
+- 先看 Claude 官方的[「支持地区」列表](https://www.anthropic.com/supported-countries)，账号使用地区不在列表里的，先别付款；
 - 账单地址、常用登录地区、账号资料尽量一致，不要频繁在多个地区之间切换；
 - 付款被拒后不要连续换卡重试，先按第 5 节排查，等一段时间再试；
 - 已经有 Pro 的：别频繁换卡或改账单地址，重要对话定期导出。
@@ -235,9 +257,22 @@ Claude 对付款和账号的审核比其他几家严，付款前多做几步确�
 
 - **Why cards fail**: merchants (mostly via Stripe; Gemini via Google Payments) check the card's issuing country (BIN), card type, billing address (AVS), network exit region, 3DS, and balance including tax and pre-authorization. Most "declined but I have money" cases come down to the issuing country.
 - **Methods compared**: an overseas bank card in your own name (most reliable); a foreign-region Apple ID topped up with App Store gift cards (iOS in-app only, gift-card markup); a friend paying for you; cards issued by trading platforms (lowest fees, usually no monthly fee, but require an extra account, ID verification and converting funds to USD first); prepaid cards that accept local payment methods (convenient, but several providers shut down in 2024–2025, so check track record); single-use cards (break on renewal); resellers / shared accounts (not recommended).
-- **Pink Card (disclosure: our team builds it)**: a prepaid USD Mastercard/Visa card. Fees: $10 issuance + 3% service fee (on face value + $10), 5% on top-ups, $2.50/month, $1 per transaction including failed ones (failed ones capped at 3 per month). Web face value starts at $110. It is **not** the cheapest option: about $60 extra per year for a $20/month subscription. Its case is convenience: no extra platform account, one card for several subscriptions, reloadable with the same card number. Site: pinkcard.cc.
+- **Pink Card (disclosure: our team builds it)**: a prepaid USD Mastercard/Visa card. Fees: $10 issuance + 3% service fee (on face value + $10), $5 + 5% per top-up, $2.50/month, $1 per transaction including failed ones (failed ones capped at 3 per month); paying by Alipay adds 3%. Web face value starts at $110. It is **not** the cheapest option: about $61–74 extra per year for a $20/month subscription. Its case is convenience: no extra platform account, one card for several subscriptions, reloadable with the same card number. Site: pinkcard.cc.
 - **Decline checklist**: subscribe on the web, not in-app; keep at least $25 for a $20 plan; copy the billing address field by field; keep the network exit region in the same country as the billing address; turn off browser autofill; don't bind one card to several accounts; **don't retry repeatedly** — remove the card, fix the details, wait, then try again.
 - **Claude Pro**: Claude reviews payments and accounts more strictly than others. Check the official supported-regions list first, keep billing address and login region consistent, and avoid retrying with many different cards.
+
+- **More**: [English FAQ](docs/faq-en.md) · [fee comparison](docs/fees.md) · [changelog](CHANGELOG.md)
+
+---
+
+## 延伸阅读：分篇 FAQ
+
+| 文章 | 适合谁 |
+|---|---|
+| [各 AI 服务付款步骤](docs/payment-steps.md) | 第一次订阅 ChatGPT Plus / Claude Pro / Cursor / Gemini / Midjourney |
+| [常见拒付原因与解决](docs/card-declined.md) | 已经看到「Your card was declined」或续费失败 |
+| [费用对比表](docs/fees.md) | 想算清一年下来各种方法多花多少钱 |
+| [English FAQ](docs/faq-en.md) | Non-Chinese readers |
 
 ---
 
