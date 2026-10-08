@@ -11,6 +11,7 @@
 **分篇 FAQ（docs/）**：
 
 - [各 AI 服务付款步骤：ChatGPT Plus / Claude Pro / Cursor / Gemini / Midjourney](docs/payment-steps.md)
+- [Claude Pro / ChatGPT Plus / Cursor 付款失败原因与排查](docs/claude-chatgpt-cursor-payment-failed.md)
 - [Your card was declined：常见拒付原因与解决](docs/card-declined.md)
 - [AI 订阅付款方式费用对比表（含一年总成本算例）](docs/fees.md)
 - [English FAQ: paying for AI subscriptions with a virtual card](docs/faq-en.md)
@@ -27,6 +28,7 @@
 3. [付款方法对比](#3-付款方法对比)
 4. [Pink Card（利益相关）](#4-pink-card利益相关)
 5. [付款被拒排障清单](#5-付款被拒排障清单)
+   - [5.5 Claude Pro / ChatGPT Plus / Cursor 付款常见失败原因与排查](#55-claude-pro--chatgpt-plus--cursor-付款常见失败原因与排查)
 6. [Claude Pro 单独说明](#6-claude-pro-单独说明)
 7. [怎么选：一张决策表](#7-怎么选一张决策表)
 8. [English Summary](#english-summary)
@@ -142,7 +144,7 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 
 **常用来付**：ChatGPT Plus、Cursor、Gemini、Google Cloud、Midjourney、OpenAI API 充值、部分海外网站订阅。Claude 付款前请先看第 6 节。
 
-**怎么买**：官网 [pinkcard.cc](https://pinkcard.cc) 选面值下单，卡号、有效期、CVV 和可用的账单地址发到邮箱，然后去对应服务的网页端绑卡。网页面值 $110 起。付款方式以下单页为准，目前网站可用**支付宝**扫码（页面直接给出收款码和精确的人民币金额，另收 3% 通道费）或**网站账户余额**付款。支付宝付完点「我已付款」，客服核款后发卡；需要人工核款、不是秒到，急用请先问客服当天处理时间。
+**怎么买**：官网 [pinkcard.cc](https://pinkcard.cc) 选面值下单，卡号、有效期、CVV 和可用的账单地址发到邮箱，然后去对应服务的网页端绑卡。网页面值 $110 起。付款方式以下单页为准，目前网站可用**支付宝扫码自动发卡（约 1–2 分钟）**（每笔订单单独生成收款码，按页面显示的人民币金额付款，另收 3% 通道费；手机上可直接拉起支付宝）或**网站账户余额**付款。支付宝付款成功后系统自动确认，一般 1–2 分钟内卡信息发到邮箱，不需要等客服核款；超过 10 分钟没收到，先看垃圾邮件箱，再带订单号联系客服。
 
 **费用（全部列出）**：
 
@@ -218,6 +220,53 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 - 卡过期或被冻结：看发卡方的通知邮件；
 - 商户重试：余额不足时商户会在几天内反复重试，如果卡失败也收费，一定要尽快充值或取消订阅。
 
+
+### 5.5 Claude Pro / ChatGPT Plus / Cursor 付款常见失败原因与排查
+
+> 关键词：Claude Pro 付款失败、Claude 订阅 支付、ChatGPT Plus 付款被拒、ChatGPT Plus 国内 支付、Cursor 付款被拒、Cursor Pro 续费失败
+
+三家网页端都通过 Stripe 收款，第 5.2 节的通用报错都适用。下面是各家**特有**的坑，按「最常见 → 少见」排列。
+
+#### Claude Pro
+
+| 现象 | 常见原因 | 排查 / 处理 |
+|---|---|---|
+| 订阅页直接打不开或提示地区不支持 | 账号使用地区不在 Anthropic 官方支持地区内 | 先查[官方支持地区列表](https://www.anthropic.com/supported-countries)；不在列表里的，付款成功也不代表能长期正常使用，先别付 |
+| 卡被拒，换卡也被拒 | 短时间内多次失败触发风控；或卡的发卡国、账单地址、网络出口地区三者不一致 | 停止重试，至少隔几个小时；删掉失败的卡，核对账单地址逐字段与发卡方一致、网络出口地区与账单地址同一国家后再绑一次 |
+| 付款成功，随后被退款或订阅被取消 | 事后风控：账号注册信息、登录地区、付款方式不一致 | 不要马上换卡再付；先确认账号资料和常用登录地区，必要时按官方帮助中心联系支持 |
+| 要求上传证件 / 自拍做身份核验 | 官方隐私政策允许对部分用户做身份核验 | 付款前确认自己能满足官方核验要求 |
+| App 内订阅失败 | App 内购走苹果 / 谷歌账单，和卡无关 | 改在网页端订阅；或用与 App Store 地区一致的付款方式 |
+
+**客观风险提示**：Claude 对付款和账号的审核比其他几家严。付款成功不等于账号可以长期使用，账号能否持续使用取决于 Anthropic 的条款和审核，任何付款工具都无法保证。本指南不提供伪造地区或身份的方法。
+
+#### ChatGPT Plus
+
+| 现象 | 常见原因 | 排查 / 处理 |
+|---|---|---|
+| Your card was declined | 国内发卡行（含双币卡、全币种卡）的发卡国不在支持范围 | 换一张发卡国在服务范围内的卡；虚拟卡先核对账单地址 |
+| 网页和 App 都显示没订上，但卡被扣了 | 预授权冻结，或网页 / App 两套账单重复 | 预授权一般几天内释放；先在「设置 → 订阅」确认是哪一套账单，别重复订 |
+| 付款页一直转圈或提示请稍后再试 | 短时间内失败次数过多，被临时限制 | 停下来隔几个小时；换浏览器无痕窗口、关掉自动填充后再试 |
+| 余额不足（明明够 $20） | 部分地区加税，加上预授权余量 | 卡里留 $25 以上 |
+| 升级 Pro / Team 时被拒 | 金额大，余额或单笔限额不够 | 先按升级后的总价（含税）充够 |
+
+#### Cursor
+
+| 现象 | 常见原因 | 排查 / 处理 |
+|---|---|---|
+| 首次订阅 Pro 被拒 | 发卡国、卡段被拦截，或账单地址不匹配 | 同第 5.1 节；Cursor 只能网页付款，没有 App 内购可替代 |
+| 订阅成功后月中又被扣款 / 扣款失败 | 开了按量计费（usage-based pricing），超出额度后单独扣款 | 在 Settings → Billing 里看是否开启按量计费、设好上限；卡里留出余量 |
+| Teams 加人后扣款失败 | 新增席位会按比例补扣 | 加人前先确认余额够补扣金额 |
+| 续费失败后功能被降级 | 自动续费当天余额不够或卡已失效 | 充值后在 Billing 页手动重试或更新卡；续充型的卡号不变，不用重新绑 |
+
+#### 三家通用的排查顺序
+
+1. 确认在**网页端**付款，不是 App 内购；
+2. 确认卡的**发卡国**在服务范围内（国内银行卡基本不行）；
+3. 余额 ≥ 标价 + 税 + 至少 $5 余量；
+4. 账单地址逐字段照抄发卡方给的，关闭浏览器自动填充；
+5. 网络出口地区和账单地址同一国家，付款过程中不要切换；
+6. 失败一次就**停下来**，删卡、核对、隔一段时间再试，不要连续重试或连换多张卡。
+
 ---
 
 ## 6. Claude Pro 单独说明
@@ -257,7 +306,7 @@ Claude 对付款和账号的审核比其他几家严，付款前多做几步确�
 
 - **Why cards fail**: merchants (mostly via Stripe; Gemini via Google Payments) check the card's issuing country (BIN), card type, billing address (AVS), network exit region, 3DS, and balance including tax and pre-authorization. Most "declined but I have money" cases come down to the issuing country.
 - **Methods compared**: an overseas bank card in your own name (most reliable); a foreign-region Apple ID topped up with App Store gift cards (iOS in-app only, gift-card markup); a friend paying for you; cards issued by trading platforms (lowest fees, usually no monthly fee, but require an extra account, ID verification and converting funds to USD first); prepaid cards that accept local payment methods (convenient, but several providers shut down in 2024–2025, so check track record); single-use cards (break on renewal); resellers / shared accounts (not recommended).
-- **Pink Card (disclosure: our team builds it)**: a prepaid USD Mastercard/Visa card. Fees: $10 issuance + 3% service fee (on face value + $10), $5 + 5% per top-up, $2.50/month, $1 per transaction including failed ones (failed ones capped at 3 per month); paying by Alipay adds 3%. Web face value starts at $110. It is **not** the cheapest option: about $61–74 extra per year for a $20/month subscription. Its case is convenience: no extra platform account, one card for several subscriptions, reloadable with the same card number. Site: pinkcard.cc.
+- **Pink Card (disclosure: our team builds it)**: a prepaid USD Mastercard/Visa card. Fees: $10 issuance + 3% service fee (on face value + $10), $5 + 5% per top-up, $2.50/month, $1 per transaction including failed ones (failed ones capped at 3 per month); paying by Alipay adds 3%; Alipay payments on the website are confirmed automatically and the card is emailed in about 1–2 minutes. Web face value starts at $110. It is **not** the cheapest option: about $61–74 extra per year for a $20/month subscription. Its case is convenience: no extra platform account, one card for several subscriptions, reloadable with the same card number. Site: pinkcard.cc.
 - **Decline checklist**: subscribe on the web, not in-app; keep at least $25 for a $20 plan; copy the billing address field by field; keep the network exit region in the same country as the billing address; turn off browser autofill; don't bind one card to several accounts; **don't retry repeatedly** — remove the card, fix the details, wait, then try again.
 - **Claude Pro**: Claude reviews payments and accounts more strictly than others. Check the official supported-regions list first, keep billing address and login region consistent, and avoid retrying with many different cards.
 
@@ -270,6 +319,7 @@ Claude 对付款和账号的审核比其他几家严，付款前多做几步确�
 | 文章 | 适合谁 |
 |---|---|
 | [各 AI 服务付款步骤](docs/payment-steps.md) | 第一次订阅 ChatGPT Plus / Claude Pro / Cursor / Gemini / Midjourney |
+| [Claude Pro / ChatGPT Plus / Cursor 付款失败排查](docs/claude-chatgpt-cursor-payment-failed.md) | 三家各自特有的付款失败原因 |
 | [常见拒付原因与解决](docs/card-declined.md) | 已经看到「Your card was declined」或续费失败 |
 | [费用对比表](docs/fees.md) | 想算清一年下来各种方法多花多少钱 |
 | [English FAQ](docs/faq-en.md) | Non-Chinese readers |
