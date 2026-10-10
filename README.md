@@ -22,6 +22,7 @@
 - [各 AI 服务付款步骤：ChatGPT Plus / Claude Pro / Cursor / Gemini / Midjourney](docs/payment-steps.md)
 - [Claude Pro / ChatGPT Plus / Cursor 付款失败原因与排查](docs/claude-chatgpt-cursor-payment-failed.md)
 - [Your card was declined：常见拒付原因与解决](docs/card-declined.md)
+- [支付宝提示「单笔跨境金额超过上限」怎么办：原因和处理顺序](docs/alipay-cross-border-limit.md)
 - [AI 订阅付款方式费用对比表（含一年总成本算例）](docs/fees.md)
 - [English FAQ: paying for AI subscriptions with a virtual card](docs/faq-en.md)
 - [更新记录 CHANGELOG](CHANGELOG.md)
@@ -153,7 +154,7 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 
 **常用来付**：ChatGPT Plus、Cursor、Gemini、Google Cloud、Midjourney、OpenAI API 充值、部分海外网站订阅。Claude 付款前请先看第 6 节。
 
-**怎么买**：官网 [pinkcard.cc](https://pinkcard.cc) 选面值下单，卡号、有效期、CVV 和可用的账单地址发到邮箱，然后去对应服务的网页端绑卡。网页面值 $110 起。付款方式以下单页为准，目前网站可用**支付宝扫码自动发卡（约 1–2 分钟）**（每笔订单单独生成收款码，按页面显示的人民币金额付款，另收 3% 通道费；手机上可直接拉起支付宝）或**网站账户余额**付款。支付宝付款成功后系统自动确认，一般 1–2 分钟内卡信息发到邮箱，不需要等客服核款；超过 10 分钟没收到，先看垃圾邮件箱，再带订单号联系客服。
+**怎么买**：官网 [pinkcard.cc](https://pinkcard.cc) 选面值下单，卡号、有效期、CVV 和可用的账单地址发到邮箱，然后去对应服务的网页端绑卡。网页预设面值 $110 起，自定义最低 $100。付款方式以下单页为准，目前网站可用**支付宝扫码自动发卡（约 1–2 分钟）**（每笔订单单独生成收款码，按页面显示的人民币金额付款，另收 3% 通道费；手机上可直接拉起支付宝）或**网站账户余额**付款。支付宝付款成功后系统自动确认，一般 1–2 分钟内卡信息发到邮箱，不需要等客服核款；超过 10 分钟没收到，先看垃圾邮件箱，再带订单号联系客服。
 
 **费用（全部列出）**：
 
@@ -161,14 +162,14 @@ ChatGPT、Claude、Cursor、Midjourney 的网页端基本都通过 Stripe 收款
 |---|---|
 | 开卡费 | $10 |
 | 服务费 | 3%，按「面值 + 开卡费」计算 |
-| 续充 | 每次 $5 + 充值金额的 5%，卡号不变，不用重新绑卡 |
-| 支付宝付款 | 另加 3% 通道费 |
+| 续充 | 每次 $5 + 5% 服务费（按续充金额 + $5 计），卡号不变，不用重新绑卡 |
+| 人民币付款（支付宝） | 另加 3% 通道费 |
 | 月费 | $2.50 / 月 |
 | 交易费 | 每笔 $1，**扣款失败也收**；失败的每月最多收 3 笔 |
 
 **算例**：买 $110 面值，需付 $110 + $10 + ($120 × 3%) = **$123.60**（用支付宝付再加 3%）。
 
-**坦白说不便宜**：按月订一年 ChatGPT Plus（$240），在 Pink Card 上的附加成本大约 $61–74（开卡费、服务费、中途续充的 $5 + 5%、12 个月月费、12 笔交易费合计，不含支付宝 3%），约占订阅费的四分之一到三成。逐项算法见 [docs/fees.md](docs/fees.md)。第 3 节里零月费、费率 1% 左右的方案，同样场景下附加成本低得多。
+**坦白说不便宜**：按月订一年 ChatGPT Plus（$240），在 Pink Card 上的附加成本大约 $61–75（开卡费、服务费、中途续充的 $5 + 5%、12 个月月费、12 笔交易费合计，不含人民币付款的 3% 通道费），约占订阅费的四分之一到三成。逐项算法见 [docs/fees.md](docs/fees.md)。第 3 节里零月费、费率 1% 左右的方案，同样场景下附加成本低得多。
 
 **那为什么有人还选它**：
 
@@ -315,7 +316,7 @@ Claude 对付款和账号的审核比其他几家严，付款前多做几步确�
 
 - **Why cards fail**: merchants (mostly via Stripe; Gemini via Google Payments) check the card's issuing country (BIN), card type, billing address (AVS), network exit region, 3DS, and balance including tax and pre-authorization. Most "declined but I have money" cases come down to the issuing country.
 - **Methods compared**: an overseas bank card in your own name (most reliable); a foreign-region Apple ID topped up with App Store gift cards (iOS in-app only, gift-card markup); a friend paying for you; cards issued by trading platforms (lowest fees, usually no monthly fee, but require an extra account, ID verification and converting funds to USD first); prepaid cards that accept local payment methods (convenient, but several providers shut down in 2024–2025, so check track record); single-use cards (break on renewal); resellers / shared accounts (not recommended).
-- **Pink Card (disclosure: our team builds it)**: a prepaid USD Mastercard/Visa card. Fees: $10 issuance + 3% service fee (on face value + $10), $5 + 5% per top-up, $2.50/month, $1 per transaction including failed ones (failed ones capped at 3 per month); paying by Alipay adds 3%; Alipay payments on the website are confirmed automatically and the card is emailed in about 1–2 minutes. Web face value starts at $110. It is **not** the cheapest option: about $61–74 extra per year for a $20/month subscription. Its case is convenience: no extra platform account, one card for several subscriptions, reloadable with the same card number. Site: pinkcard.cc.
+- **Pink Card (disclosure: our team builds it)**: a prepaid USD Mastercard/Visa card. Fees: $10 issuance + 3% service fee (on face value + $10), $5 + 5% of (top-up + $5) per top-up, $2.50/month, $1 per transaction including failed ones (failed ones capped at 3 per month); paying by Alipay adds 3%; Alipay payments on the website are confirmed automatically and the card is emailed in about 1–2 minutes. Web face value starts at $110. It is **not** the cheapest option: about $61–75 extra per year for a $20/month subscription. Its case is convenience: no extra platform account, one card for several subscriptions, reloadable with the same card number. Site: pinkcard.cc.
 - **Decline checklist**: subscribe on the web, not in-app; keep at least $25 for a $20 plan; copy the billing address field by field; keep the network exit region in the same country as the billing address; turn off browser autofill; don't bind one card to several accounts; **don't retry repeatedly** — remove the card, fix the details, wait, then try again.
 - **Claude Pro**: Claude reviews payments and accounts more strictly than others. Check the official supported-regions list first, keep billing address and login region consistent, and avoid retrying with many different cards.
 

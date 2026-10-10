@@ -56,18 +56,18 @@ Claude reviews payments and accounts more strictly than the others. Before payin
 
 ## What does Pink Card cost? (disclosure: our team builds it)
 
-[Pink Card](https://pinkcard.cc) is a prepaid USD Mastercard / Visa virtual card. Web face value starts at $110. All fees:
+[Pink Card](https://pinkcard.cc) is a prepaid USD Mastercard / Visa virtual card. Web preset face values start at $110 (custom amount: minimum $100). All fees:
 
 | Item | Fee |
 |---|---|
 | Issuance | $10 |
 | Service fee | 3% of (face value + $10) |
-| Top-up | $5 + 5% per top-up; card number stays the same |
+| Top-up | $5 + 5% of (top-up amount + $5); card number stays the same |
 | Paying by Alipay | +3% |
 | Monthly fee | $2.50 |
 | Per transaction | $1, **including failed charges** (failed ones capped at 3 per month) |
 
-Example: a $110 card costs $110 + $10 + 3% × $120 = **$123.60**. Paying for a $20/month subscription for a year adds roughly **$61–74** in fees ([full calculation, in Chinese](fees.md)). It is **not** the cheapest option — no-monthly-fee cards at ~1% cost much less. Its case is convenience: no extra platform account, one card for several subscriptions (ChatGPT, Cursor, Gemini, Google Cloud), reloadable without rebinding.
+Example: a $110 card costs $110 + $10 + 3% × $120 = **$123.60**. Paying for a $20/month subscription for a year adds roughly **$61–75** in fees ([full calculation, in Chinese](fees.md)). It is **not** the cheapest option — no-monthly-fee cards at ~1% cost much less. Its case is convenience: no extra platform account, one card for several subscriptions (ChatGPT, Cursor, Gemini, Google Cloud), reloadable without rebinding.
 
 It cannot be used for App Store / Google Play gift cards or in-app purchases.
 

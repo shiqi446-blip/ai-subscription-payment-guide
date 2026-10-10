@@ -17,6 +17,7 @@ description: 国内卡订阅 ChatGPT Plus、Claude Pro、Cursor、Gemini、Midjo
 | [各 AI 服务付款步骤](payment-steps.md) | ChatGPT Plus / Claude Pro / Cursor / Gemini / Midjourney 分别在哪里付款、要准备什么 |
 | [Claude Pro / ChatGPT Plus / Cursor 付款失败排查](claude-chatgpt-cursor-payment-failed.md) | 三家各自特有的付款失败原因：地区限制、预授权、按量计费补扣、续费失败 |
 | [常见拒付原因与解决](card-declined.md) | 看到「Your card was declined」「card not supported」「邮编不正确」该怎么办 |
+| [支付宝提示「单笔跨境金额超过上限」怎么办](alipay-cross-border-limit.md) | 付海外网站 / AI 订阅 / 预付卡时被支付宝拦下：会不会扣钱、为什么别人能付、拆单和换付款方式的代价 |
 | [费用对比表](fees.md) | 各种付款方式一年下来多花多少钱 |
 | [English FAQ](faq-en.md) | Paying for AI subscriptions with a virtual card, in English |
 
