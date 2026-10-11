@@ -23,6 +23,7 @@
 - [Claude Pro / ChatGPT Plus / Cursor 付款失败原因与排查](docs/claude-chatgpt-cursor-payment-failed.md)
 - [Your card was declined：常见拒付原因与解决](docs/card-declined.md)
 - [支付宝提示「单笔跨境金额超过上限」怎么办：原因和处理顺序](docs/alipay-cross-border-limit.md)
+- [Grok / SuperGrok 怎么订阅付款：三个入口、被拒原因和排查顺序](docs/Grok-SuperGrok-订阅付款.md)（网站版：<https://pinkcard.cc/ai-tips/grok-supergrok-payment/>）
 - [AI 订阅付款方式费用对比表（含一年总成本算例）](docs/fees.md)
 - [English FAQ: paying for AI subscriptions with a virtual card](docs/faq-en.md)
 - [更新记录 CHANGELOG](CHANGELOG.md)
@@ -334,6 +335,7 @@ Claude 对付款和账号的审核比其他几家严，付款前多做几步确�
 | [怎么有一张海外信用卡](docs/overseas-credit-card.md) | 想弄清双币卡、港卡、海外卡、预付卡的区别 |
 | [各 AI 服务付款步骤](docs/payment-steps.md) | 第一次订阅 ChatGPT Plus / Claude Pro / Cursor / Gemini / Midjourney |
 | [Claude Pro / ChatGPT Plus / Cursor 付款失败排查](docs/claude-chatgpt-cursor-payment-failed.md) | 三家各自特有的付款失败原因 |
+| [Grok / SuperGrok 订阅付款](docs/Grok-SuperGrok-订阅付款.md) | 想订 SuperGrok，分不清网页 / App / X 会员三个入口，或国内卡被拒 |
 | [常见拒付原因与解决](docs/card-declined.md) | 已经看到「Your card was declined」或续费失败 |
 | [费用对比表](docs/fees.md) | 想算清一年下来各种方法多花多少钱 |
 | [English FAQ](docs/faq-en.md) | Non-Chinese readers |
