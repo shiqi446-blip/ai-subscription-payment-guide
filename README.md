@@ -24,6 +24,9 @@
 - [Your card was declined：常见拒付原因与解决](docs/card-declined.md)
 - [支付宝提示「单笔跨境金额超过上限」怎么办：原因和处理顺序](docs/alipay-cross-border-limit.md)
 - [Grok / SuperGrok 怎么订阅付款：三个入口、被拒原因和排查顺序](docs/Grok-SuperGrok-订阅付款.md)（网站版：<https://pinkcard.cc/ai-tips/grok-supergrok-payment/>）
+- [ChatGPT 代充靠谱吗：四种代充做法的风险、六条自查标准、不代充怎么自己付](docs/ChatGPT-代充靠谱吗.md)（网站版：<https://pinkcard.cc/ai-tips/chatgpt-daichong-risk/>）
+- [Vercel 怎么付款：Pro / v0 绑卡、Marketplace 数据库账单、扣款失败与部署暂停](docs/Vercel-付款.md)（网站版：<https://pinkcard.cc/ai-tips/vercel-payment/>）
+- [Suno 怎么订阅付款：Pro / Premier 价格和积分、网页还是 App 内购、被拒排查](docs/Suno-订阅付款.md)（网站版：<https://pinkcard.cc/ai-tips/suno-payment/>）
 - [AI 订阅付款方式费用对比表（含一年总成本算例）](docs/fees.md)
 - [English FAQ: paying for AI subscriptions with a virtual card](docs/faq-en.md)
 - [更新记录 CHANGELOG](CHANGELOG.md)
@@ -336,6 +339,9 @@ Claude 对付款和账号的审核比其他几家严，付款前多做几步确�
 | [各 AI 服务付款步骤](docs/payment-steps.md) | 第一次订阅 ChatGPT Plus / Claude Pro / Cursor / Gemini / Midjourney |
 | [Claude Pro / ChatGPT Plus / Cursor 付款失败排查](docs/claude-chatgpt-cursor-payment-failed.md) | 三家各自特有的付款失败原因 |
 | [Grok / SuperGrok 订阅付款](docs/Grok-SuperGrok-订阅付款.md) | 想订 SuperGrok，分不清网页 / App / X 会员三个入口，或国内卡被拒 |
+| [ChatGPT 代充靠谱吗](docs/ChatGPT-代充靠谱吗.md) | 在考虑代充，想知道风险在哪、怎么挑、不代充还能怎么付 |
+| [Vercel 怎么付款](docs/Vercel-付款.md) | 升级 Vercel Pro / v0，或 Marketplace 数据库账单扣款失败、部署被暂停 |
+| [Suno 订阅付款](docs/Suno-订阅付款.md) | 想订 Suno Pro / Premier，分不清网页和 App 内购，或绑卡被拒 |
 | [常见拒付原因与解决](docs/card-declined.md) | 已经看到「Your card was declined」或续费失败 |
 | [费用对比表](docs/fees.md) | 想算清一年下来各种方法多花多少钱 |
 | [English FAQ](docs/faq-en.md) | Non-Chinese readers |
