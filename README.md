@@ -27,6 +27,9 @@
 - [ChatGPT 代充靠谱吗：四种代充做法的风险、六条自查标准、不代充怎么自己付](docs/ChatGPT-代充靠谱吗.md)（网站版：<https://pinkcard.cc/ai-tips/chatgpt-daichong-risk/>）
 - [Vercel 怎么付款：Pro / v0 绑卡、Marketplace 数据库账单、扣款失败与部署暂停](docs/Vercel-付款.md)（网站版：<https://pinkcard.cc/ai-tips/vercel-payment/>）
 - [Suno 怎么订阅付款：Pro / Premier 价格和积分、网页还是 App 内购、被拒排查](docs/Suno-订阅付款.md)（网站版：<https://pinkcard.cc/ai-tips/suno-payment/>）
+- [OpenRouter 怎么充值：支付宝直接充、绑卡开自动充值、5.5% 手续费怎么算、付款失败排查](docs/OpenRouter-充值.md)（网站版：<https://pinkcard.cc/ai-tips/openrouter-payment/>）
+- [ElevenLabs 怎么付款：Starter / Creator / Pro 价格和积分、绑卡被拒、续费失败和退款规则](docs/ElevenLabs-付款.md)（网站版：<https://pinkcard.cc/ai-tips/elevenlabs-payment/>）
+- [Gamma 怎么付款：Plus / Pro 会员付费方式、绑卡被拒、续费失败和 3 天退款规则](docs/Gamma-付款.md)（网站版：<https://pinkcard.cc/ai-tips/gamma-payment/>）
 - [AI 订阅付款方式费用对比表（含一年总成本算例）](docs/fees.md)
 - [English FAQ: paying for AI subscriptions with a virtual card](docs/faq-en.md)
 - [更新记录 CHANGELOG](CHANGELOG.md)
