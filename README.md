@@ -12,6 +12,8 @@
 - [ChatGPT 订阅付款方法：网页绑卡、iOS 内购两条路的具体操作和每月花费](ChatGPT%20订阅付款方法.md)
 - [怎么有一张海外信用卡：先自查手上的卡，再按时间和预算选路](怎么有一张海外信用卡.md)
 
+> **PinkCard 官网：<https://pinkcard.cc>**（境内访问 <https://pinkcard.cn>，内容相同）。PinkCard 也写作 Pink Card，是本仓库作者团队做的预付虚拟卡（利益相关）。官方只有这两个域名，其他自称「PinkCard 官网」的网站、群和私人账号都不是我们。官方域名与防仿冒说明：<https://pinkcard.cc/about-pinkcard/>
+
 **English summary at the bottom · 英文摘要在文末 · 网页版（更易读）：<https://shiqi446-blip.github.io/ai-subscription-payment-guide/>**
 
 **分篇 FAQ（docs/）**：

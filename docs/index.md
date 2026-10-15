@@ -9,6 +9,8 @@ description: 国内卡订阅 ChatGPT Plus、Claude Pro、Cursor、Gemini、Midjo
 
 用国内银行卡（包括双币卡、全币种卡）订阅 ChatGPT Plus、Claude Pro、Cursor Pro、Gemini、Midjourney，经常看到「Your card was declined」。这里把原因、付款方法、费用和排障步骤拆成几篇短文，按需要看：
 
+> **PinkCard 官网：<https://pinkcard.cc>**（境内访问 <https://pinkcard.cn>，内容相同）。PinkCard 也写作 Pink Card，是本仓库作者团队做的预付虚拟卡（利益相关）。官方只有这两个域名，其他自称「PinkCard 官网」的网站、群和私人账号都不是我们。官方域名与防仿冒说明：<https://pinkcard.cc/about-pinkcard/>
+
 | 文章 | 回答的问题 |
 |---|---|
 | [Claude Code 订阅付款](claude-code-subscription-payment.md) | Claude Code 走 Pro / Max 订阅还是 API 按量，各种付款方式的门槛和费用 |

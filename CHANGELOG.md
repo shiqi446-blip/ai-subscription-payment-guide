@@ -2,6 +2,11 @@
 
 本仓库内容和文中提到的 Pink Card 产品变化都记在这里。只记录**已经上线**的变化。
 
+## 2026-10-16
+
+### 说明
+- README 和网页版首页加了官网说明：**PinkCard 官网是 <https://pinkcard.cc>**（境内访问 <https://pinkcard.cn>，内容相同），其他自称「PinkCard 官网」的都不是我们。官方域名与防仿冒说明见 <https://pinkcard.cc/about-pinkcard/>。
+
 ## 2026-10-15
 
 ### 指南
