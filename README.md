@@ -30,6 +30,10 @@
 - [OpenRouter 怎么充值：支付宝直接充、绑卡开自动充值、5.5% 手续费怎么算、付款失败排查](docs/OpenRouter-充值.md)（网站版：<https://pinkcard.cc/ai-tips/openrouter-payment/>）
 - [ElevenLabs 怎么付款：Starter / Creator / Pro 价格和积分、绑卡被拒、续费失败和退款规则](docs/ElevenLabs-付款.md)（网站版：<https://pinkcard.cc/ai-tips/elevenlabs-payment/>）
 - [Gamma 怎么付款：Plus / Pro 会员付费方式、绑卡被拒、续费失败和 3 天退款规则](docs/Gamma-付款.md)（网站版：<https://pinkcard.cc/ai-tips/gamma-payment/>）
+- [ChatGPT Plus / Claude Pro 订阅银行卡被拒：Your card was declined 等报错对照和 6 个自查办法](docs/订阅被拒-报错对照.md)（网站版：<https://pinkcard.cc/ai-tips/card-declined-error-codes/>）
+- [X（推特）Premium 怎么付款：三档价格、网页绑卡被拒、每日购买次数上限和续费失败](docs/X-Premium-付款.md)（网站版：<https://pinkcard.cc/ai-tips/x-premium-payment/>）
+- [Figma 怎么付款：Professional 席位价格、国内付款被拒、扣款失败后锁成只读怎么办](docs/Figma-付款.md)（网站版：<https://pinkcard.cc/ai-tips/figma-payment/>）
+- [Replicate 怎么付款：先买预付额度、绑卡 $0 验证、自动充值怎么设、被拒排查](docs/Replicate-付款.md)（网站版：<https://pinkcard.cc/ai-tips/replicate-payment/>）
 - [AI 订阅付款方式费用对比表（含一年总成本算例）](docs/fees.md)
 - [English FAQ: paying for AI subscriptions with a virtual card](docs/faq-en.md)
 - [更新记录 CHANGELOG](CHANGELOG.md)

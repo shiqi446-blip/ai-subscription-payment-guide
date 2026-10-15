@@ -25,6 +25,10 @@ description: 国内卡订阅 ChatGPT Plus、Claude Pro、Cursor、Gemini、Midjo
 | [OpenRouter 怎么充值](OpenRouter-充值.md) | 支付宝直接充还是绑卡、5.5% 手续费怎么算、自动充值为什么只能绑卡、24 小时退款和额度过期、付款失败排查 |
 | [ElevenLabs 怎么付款](ElevenLabs-付款.md) | Starter / Creator / Pro 价格和积分结转、预付卡为什么可能被拒、首月折扣结束后的续费失败、14 天退款条件 |
 | [Gamma 怎么付款](Gamma-付款.md) | Gamma Plus / Pro / Ultra 怎么选、只收银行卡、含税扣款和升级补差价、被拒排查、3 天退款规则 |
+| [ChatGPT Plus / Claude Pro 订阅被拒报错对照](订阅被拒-报错对照.md) | Your card was declined、card_not_supported、do_not_honor、incorrect_zip、3D Secure 等报错各是什么意思、该怎么办，6 个按顺序做的自查办法，我们卡上失败原因分布 |
+| [X（推特）Premium 怎么付款](X-Premium-付款.md) | Basic / Premium / Premium+ 价格、网页和 App 内购的区别、每日购买次数上限、续费失败和退款规则 |
+| [Figma 怎么付款](Figma-付款.md) | Professional 三种席位价格、绑卡步骤、被拒原因、续费失败 21 天重试后锁成只读的补救 |
+| [Replicate 怎么付款](Replicate-付款.md) | 预付额度一年有效不退款、绑卡 $0 验证、自动充值门槛、被拒排查、怎么买手续费占比低 |
 | [费用对比表](fees.md) | 各种付款方式一年下来多花多少钱 |
 | [English FAQ](faq-en.md) | Paying for AI subscriptions with a virtual card, in English |
 
