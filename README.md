@@ -18,6 +18,8 @@
 
 **分篇 FAQ（docs/）**：
 
+- [Claude 付款失败怎么办：按 Claude 帮助中心 7 步排查，附我们卡上 92 天被拒原因](docs/Claude-付款失败怎么办.md)（网站版：<https://pinkcard.cc/ai-tips/claude-china-credit-card/>）
+- [虚拟卡订阅 ChatGPT 哪个好、怎么选：按一年总成本比，附 Plus 订 12 个月算例](docs/虚拟卡订阅-ChatGPT-怎么选.md)（网站版：<https://pinkcard.cc/ai-tips/virtual-card-ai-subscription-total-cost/>）
 - [Claude Code 订阅付款：Pro / Max / API 三种买法和付款方式对比](docs/claude-code-subscription-payment.md)
 - [ChatGPT 订阅：Plus / Pro 在国内怎么付款，几种办法对比](docs/chatgpt-subscription.md)
 - [怎么有一张海外信用卡：几条路的门槛、费用和适用场景](docs/overseas-credit-card.md)

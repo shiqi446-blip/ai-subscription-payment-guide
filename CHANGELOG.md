@@ -2,6 +2,13 @@
 
 本仓库内容和文中提到的 Pink Card 产品变化都记在这里。只记录**已经上线**的变化。
 
+## 2026-11-19
+
+### 指南
+- 新增「[Claude 付款失败怎么办](docs/Claude-付款失败怎么办.md)」：按 Claude 帮助中心「Why was my card declined?」7 步排查，附我们卡上 UTC 2026-08-17 至 11-17 的 Claude 订阅扣款统计。
+- 新增「[虚拟卡订阅 ChatGPT 哪个好、怎么选](docs/虚拟卡订阅-ChatGPT-怎么选.md)」：6 项选卡标准和 ChatGPT Plus 订 12 个月总成本算例。
+- README 分篇 FAQ、docs 目录加入口。
+
 ## 2026-10-16
 
 ### 说明

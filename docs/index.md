@@ -13,6 +13,8 @@ description: 国内卡订阅 ChatGPT Plus、Claude Pro、Cursor、Gemini、Midjo
 
 | 文章 | 回答的问题 |
 |---|---|
+| [Claude 付款失败怎么办](Claude-付款失败怎么办.md) | 按 Claude 帮助中心 7 步排查顺序逐项看；国内卡卡在发卡国家，海外发行的卡被拒多半是余额不够；我们卡上 92 天 Claude 订阅被拒原因分布 |
+| [虚拟卡订阅 ChatGPT 哪个好、怎么选](虚拟卡订阅-ChatGPT-怎么选.md) | 总成本、续充、失败扣费、月费、到卡时间、退款 6 项怎么比；ChatGPT Plus 订 12 个月三种买法的总成本算例 |
 | [Claude Code 订阅付款](claude-code-subscription-payment.md) | Claude Code 走 Pro / Max 订阅还是 API 按量，各种付款方式的门槛和费用 |
 | [ChatGPT 订阅怎么付款](chatgpt-subscription.md) | ChatGPT Plus / Pro 网页端、iOS、安卓三种订阅渠道，国内能用的付款办法对比 |
 | [怎么有一张海外信用卡](overseas-credit-card.md) | 双币卡、港卡、海外银行卡、预付虚拟卡、礼品卡的区别和门槛 |
