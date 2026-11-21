@@ -56,7 +56,7 @@ Claude reviews payments and accounts more strictly than the others. Before payin
 
 ## What does Pink Card cost? (disclosure: our team builds it)
 
-[Pink Card](https://pinkcard.cc) is a prepaid USD Mastercard / Visa virtual card. Web preset face values start at $110 (custom amount: minimum $100). All fees:
+[Pink Card](https://pinkcard.cc) is a prepaid USD Mastercard / Visa virtual card. Web preset face values start at $50 (custom amount: minimum $50). All fees:
 
 | Item | Fee |
 |---|---|
